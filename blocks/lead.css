@@ -1,22 +1,21 @@
 .lead {
-  padding: 56px 0 92px;
+  padding: 90px 0 92px; /* en tu panel aparece spacing 92; aquí queda consistente */
+  text-align: center;
 }
 
 .lead__title {
   margin: 0 auto 32px;
   max-width: 720px;
-  text-align: center;
-  font-size: 54px;
-  line-height: 1.1;
+  font-size: 96px;
+  line-height: 1;
   font-weight: 900;
 }
 
 .lead__subtitle {
   margin: 0 auto 64px;
   max-width: 720px;
-  text-align: center;
-  font-size: 24px;
-  line-height: 1.25;
+  font-size: 30px;
+  line-height: 1.2;
   font-weight: 400;
   opacity: 0.9;
 }
@@ -29,13 +28,4 @@
   width: 100%;
   display: block;
   object-fit: cover;
-}
-
-.lead__caption {
-  margin: 8px 0 0;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  opacity: 0.8;
 }

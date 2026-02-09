@@ -1,36 +1,11 @@
 .header {
-  padding-top: 28px 48px 0;
-}
-
-.header__nav {
+  padding-top: 34px;
   display: flex;
   justify-content: center;
 }
 
 .header__logo {
-  width: 176px;
-  height: 52px;
-}
-
-.header__title {
-  margin: 56px 0 0;
-  text-align: center;
-  font-size: 96px;
-  line-height: 1;
-  font-weight: 900;
-}
-
-.header__subtitle {
-  margin: 32px auto 64px;
-  max-width: 720px;
-  text-align: center;
-  font-size: 30px;
-  line-height: 1.2;
-  font-weight: 400;
-}
-
-.header__image {
-  width: 100%;
+  width: 270px;
+  height: auto;
   display: block;
-  object-fit: cover;
 }
