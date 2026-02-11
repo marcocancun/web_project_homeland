@@ -1,73 +1,88 @@
-<!doctype html>
+<<!doctype html>
 <html lang="es">
   <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Marco Urbina" />
-  <meta
-    name="description"
-    content="Proyecto responsivo de TripleTen: De patria a patria. Sitio web adaptativo sobre lugares de origen."
-  />
-  <meta
-    name="keywords"
-    content="TripleTen, Homeland, De patria a patria, web responsive, HTML, CSS, proyecto"
-  />
-  <title>web_project_homeland</title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
-  <body class="page">
-    <div class="page__content">
-      <header class="header">
-        <img
-          class="header__logo"
-          src="./images/logo.svg"
-          alt="TripleTen Art Gallery"
-        />
-      </header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Marco Urbina" />
+    <meta
+      name="description"
+      content="Proyecto responsivo de TripleTen: De patria a patria. Sitio web adaptativo sobre lugares de origen."
+    />
+    <meta
+      name="keywords"
+      content="TripleTen, Homeland, De patria a patria, web responsive, HTML, CSS, proyecto"
+    />
+    <title>web_project_homeland</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-      <main class="content">
-        <section class="lead page__section">
-          <h1 class="lead__title">De patria a patria</h1>
-          <p class="lead__subtitle">
+  <body>
+    <div class="page">
+      <div class="page__content">
+        <header class="header">
+          <img
+            class="header__logo"
+            src="./images/logo.svg"
+            alt="TripleTen Art Gallery"
+          />
+          <h1 class="header__title">De patria a patria</h1>
+          <p class="header__subtitle">
             Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
           </p>
+          <img
+            class="header__image"
+            src="./images/header.jpg"
+            alt="Paisaje costero en blanco y negro"
+          />
+        </header>
 
-          <figure class="lead__figure">
-            <img
-              class="lead__image"
-              src="./images/lead.jpg"
-              alt="Paisaje costero en blanco y negro"
-            />
-          </figure>
-        </section>
+        <main class="content">
+          <section class="lead page__section">
+            <h2 class="lead__title">De patria a patria</h2>
+            <p class="lead__subtitle">
+              Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+            </p>
 
-        <section class="intro page__section">
-          <h2 class="intro__title">
-            Conoce un poco mejor los lugares de los que proceden tus colegas en
-            línea
-          </h2>
+            <figure class="lead__figure">
+              <img
+                class="lead__image"
+                src="./images/lead.jpg"
+                alt="Paisaje costero en blanco y negro"
+              />
+            </figure>
+          </section>
 
-          <p class="intro__quote">
-            Todo ser humano es un artista, un ser de la libertad, llamado a
-            participar en la transformación y reforma de las condiciones, el
-            pensamiento y las estructuras que conforman e influyen en nuestras
-            vidas.
-          </p>
-          <p class="intro__quote-author">— Joseph Beuys</p>
+          <section class="intro page__section">
+            <h2 class="intro__title">
+              Conoce un poco mejor los lugares de los que proceden tus colegas
+              en línea
+            </h2>
 
-          <p class="intro__text">
-            La ciudad de TripleTen reúne a profesionales de diferentes rincones
-            del mundo. Hoy, la Galería de Arte TripleTen se complace en
-            presentar historias y fotografías de algunas personas que dedican su
-            tiempo y energía a hacer que los futuros profesionales de la
-            tecnología se sientan como en casa.
-          </p>
-        </section>
+            <p class="intro__quote">
+              Todo ser humano es un artista, un ser de la libertad, llamado a
+              participar en la transformación y reforma de las condiciones, el
+              pensamiento y las estructuras que conforman e influyen en nuestras
+              vidas.
+            </p>
+            <p class="intro__quote-author">— Joseph Beuys</p>
 
-        <section class="places page__section"></section>
-      </main>
+            <p class="intro__text">
+              La ciudad de TripleTen reúne a profesionales de diferentes
+              rincones del mundo. Hoy, la Galería de Arte TripleTen se complace
+              en presentar historias y fotografías de algunas personas que
+              dedican su tiempo y energía a hacer que los futuros profesionales
+              de la tecnología se sientan como en casa.
+            </p>
+          </section>
 
-      <footer class="footer"></footer>
+          <!-- Si tu proyecto incluye photo-grid, aquí va -->
+          <!-- <section class="photo-grid page__section"></section> -->
+
+          <section class="places page__section"></section>
+        </main>
+
+        <footer class="footer"></footer>
+      </div>
     </div>
   </body>
 </html>
