@@ -11,14 +11,15 @@
   box-sizing: border-box;
 }
 
+/* Contenedor general (ancho del layout) */
 .page__content {
-  max-width: 984px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 48px;
 }
 
+/* Secciones con ancho tipo contenido */
 .page__section {
   max-width: 984px;
   margin: 0 auto;
-  padding: 0 48px;
 }

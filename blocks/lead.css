@@ -1,5 +1,7 @@
 .lead {
-  padding: 90px 0 92px; /* en tu panel aparece spacing 92; aquí queda consistente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -22,6 +24,8 @@
 
 .lead__figure {
   margin: 0;
+  width: 100%;
+  max-width: 984px; /* desktop: imagen centrada */
 }
 
 .lead__image {
