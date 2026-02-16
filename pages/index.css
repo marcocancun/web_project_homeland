@@ -9,3 +9,39 @@
 @import url("../blocks/places.css");
 @import url("../blocks/footer.css");
 @import url("../blocks/place.css");
+
+/* ============ Responsive ============ */
+
+/* 768px y menor */
+@media screen and (max-width: 1024px) {
+  .page__content {
+    padding: 0 24px;
+  }
+
+  .lead__title {
+    font-size: 64px;
+  }
+
+  .lead__subtitle {
+    font-size: 24px;
+  }
+}
+
+/* 320px y menor */
+@media screen and (max-width: 544px) {
+  .page__content {
+    padding: 0 16px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+}
